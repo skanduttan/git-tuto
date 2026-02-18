@@ -1,0 +1,11 @@
+>git --version :- returns version if git present
+commit :- to save the changes in the file to git
+stage :- to make the files ready to be committed
+>git status:- returns if all the files are tracked,committed and modifications
+>git add --all & *git add -A :- stages all the files in git 
+>git add . :-stages only the files in the current directory 
+>git reset :-reverses the staging process u did
+>git add * :- stages every change in git except any deletions
+>git add filename.extension :- we can stage individual files
+>git add *.extension :- we can stage all files in the current directory with that extension
+
