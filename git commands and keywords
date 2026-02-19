@@ -8,4 +8,14 @@ stage :- to make the files ready to be committed
 >git add * :- stages every change in git except any deletions
 >git add filename.extension :- we can stage individual files
 >git add *.extension :- we can stage all files in the current directory with that extension
-
+>git rm filename.extension :- to delete and stage the deletion
+>git rm -f filename.extension :- to force delete if the files is not committed but staged
+>git rm --cached filename.extension :- removes the file from gits tracking but not from ur computer
+>git rm -r foldername :- to delete an entire folder
+>git commit -m "comment" :- to commit the git with a cmnt
+>git config --global user.email "youremail":- to save every git file on this system to this email
+>git config --global user.name "yourname" :- to save your name for every git commits
+>git config --local     "           "      :- using this u can only set for the current repositoty not for ur entire system
+>git branch :- lists all branches and puts a "*" on current branch
+>git branch newbranchname :- creates a new branch and will be the clone of your current branch
+>git 
