@@ -18,4 +18,5 @@ stage :- to make the files ready to be committed
 >git config --local     "           "      :- using this u can only set for the current repositoty not for ur entire system
 >git branch :- lists all branches and puts a "*" on current branch
 >git branch newbranchname :- creates a new branch and will be the clone of your current branch
->git 
+>git checkout branchname :- teleports to the specified branch
+>git switch branchname :-      "      "   "      "       "
